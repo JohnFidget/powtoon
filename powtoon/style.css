@@ -1,0 +1,265 @@
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	height: 1080px;
+	width: 100%;
+	background: url(all/back.jpg) no-repeat;
+}
+
+.logo {
+	width: 100%;
+	height: 100px;
+	position: fixed;
+}
+
+.lb {
+	margin-top: -10px;
+	width: 190px;
+	height: 90px; 
+	background-color: #fff;
+	margin-left: 10%;
+	text-align: center;
+	border-radius: 0 0 10px 10px;
+	transform: rotate(-5deg);
+	transition: all 0.3s ease-out;
+
+}
+
+.lb:hover {
+	transform: rotate(5deg);
+	transition: all 0.3s ease-in;
+}
+
+
+.lb img {     
+	width: 165px;
+    height: 59px;     
+    padding-top: 20px;
+    transform: rotate(5deg);
+}
+
+
+.head-wrap {
+	padding-top: 300px;
+}
+
+.text {
+	padding-left: 10%;
+}
+
+.text h1 {
+	font-family: MullerBold;
+	color: #44a09b; 
+	font-size: 32px;
+	padding-bottom: 45px;	 
+}
+
+.text p {
+	font-family: MullerRegular;
+	font-size: 62px;
+	line-height: 90px;
+}
+
+ a {
+	color: #000;
+	text-decoration: none;
+	font-family: MullerBold;
+}
+
+
+
+.lbutton {
+	padding-top: 60px;
+}
+
+.boxon {
+	width: 900px;
+	height: 200px;
+	margin-left: -100px; 
+	background-color: #fff;
+	border-radius: 250px;
+	text-align: center;
+	padding-left: 50px;
+}
+
+.hb {
+	background-color: #ff8141;
+	height: 60px;
+	width: 58%;
+	margin-left: 21%;
+	margin-left: 21%; 
+	border-radius: 40px;
+}
+
+.boxon h2 {
+	font-family: MullerMedium;
+	font-size: 28px;
+	padding-top: 40px;
+	padding-bottom: 30px;
+	color: #ff8141;
+}
+
+.hb p {
+	color: #fff;	
+	padding-top: 15px;
+	font-family: MullerBold;
+	text-transform: uppercase;
+	font-size: 34px;
+}
+
+
+.scroll {
+	width: 100%;
+	text-align: center;
+	padding-top: 65px;	
+}
+
+.scroll p {
+	color: #fff;
+	font-size: 16;
+	font-family: VisbyHeavy;
+	text-transform: uppercase;
+	padding-bottom: 15px;
+}
+
+.wrapper {
+	width: 100%;
+	height: 915px;
+}
+
+.video {
+	width: 55%;
+	height: 100%;
+	float: left;
+	background: url(all/vid.jpg) no-repeat;
+}
+
+.vb {
+	width: 10em;
+	height: 10em;
+	border-radius: 90px;
+	opacity: 0.64;
+	background-color: #000;
+	margin: 0 auto;
+	margin-top: 23em;
+}
+
+.vt {
+	 width: 0;
+     height: 0;
+     border-left: 25px solid transparent;
+     border-right: 25px solid transparent;
+     border-bottom: 45px solid white;
+     transform: rotate(-30deg);
+     margin-left: 40px;
+     padding-top: 55px;
+}
+
+.info {
+	width: 45%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.info h1 {
+	font-family: VisbyBold;
+	font-size: 42px;
+	margin-top: 130px;
+	text-transform: uppercase;
+	margin-left: 200px;
+}
+
+.info ul {
+	margin-top: 50px;
+	margin-bottom: 55px;
+	margin-left: 200px;
+	list-style: none;
+	line-height: 35px;
+}
+
+
+li {
+	position: relative;
+	font-family: VisbyLight;
+	font-size: 22px;
+}
+
+.lastli {
+	margin-top: 65px;
+}
+
+.info img {
+	position: relative;
+	left: -40px;
+}
+
+#hb2 p{
+	text-align: center;
+}
+
+.footer {
+	width: 100%;
+	height: 200px;
+	text-align: center;
+}
+
+.fbox {
+	height: 100%;
+	background-color: #273d50;
+}
+
+.fbox p {
+	color: #fff;
+	font-family: VisbyExtra;
+	font-size: 55px;	
+	text-transform: uppercase;
+	padding-top: 72px;
+}
+
+
+
+@font-face {
+	font-family: MullerBold;
+	src: url(all/MullerBold.otf);
+}
+
+@font-face {
+	font-family: MullerRegular;
+	src: url(all/MullerRegular.ttf);
+}	
+
+@font-face {
+	font-family: MullerMedium;
+	src: url(all/MullerMedium.otf);
+}
+
+@font-face {
+	font-family: VisbyHeavy;
+	src: url(all/VisbyCFHeavy.ttf);
+}
+
+@font-face {
+	font-family: VisbyExtra;
+	src: url(all/VisbyCFExtra.ttf);
+}
+
+@font-face {
+	font-family: VisbyBold;
+	src: url(all/VisbyCFBold.otf);
+}
+
+@font-face {
+	font-family: VisbyLight;
+	src: url(all/VisbyCFLight.ttf);
+}
+
+@font-face {
+	font-family: VisbyThin;
+	src: url(all/VisbyCFThin.ttf);
+}
